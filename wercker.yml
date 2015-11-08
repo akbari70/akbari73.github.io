@@ -20,11 +20,11 @@ build:
         content: |-
           User-agent: *
           Allow: /
-          Sitemap: http://mehdix.ir/sitemap.xml
+          Sitemap: http://maryamakbari.ir/sitemap.xml
 
 deploy:
   steps:
     - lukevivier/gh-pages:
         token: $GITHUB_TOKEN
         basedir: _site
-        domain: mehdix.ir
+        domain: maryamakbari.ir
